@@ -1,10 +1,11 @@
 CSS parsing tests
 #################
 
-This repository contains implementation-independent test for CSS parsers,
-based on the 2013 draft of the `CSS Syntax Level 3`_ specification.
+This repository contains implementation-independent test for CSS parsers, based
+on the 2021 candidate recommandation draft of the `CSS Syntax Level 3`_
+specification.
 
-.. _CSS Syntax Level 3: https://drafts.csswg.org/css-syntax-3/
+.. _CSS Syntax Level 3: https://www.w3.org/TR/2021/CRD-css-syntax-3-20211224/
 
 The upstream repository for these tests is at
 https://github.com/SimonSapin/css-parsing-tests
