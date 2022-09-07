@@ -227,8 +227,8 @@ Component values
     the value as a number, the type as the string ``"integer"`` or ``"number"``,
     and the unit as a string.
 
-<unicode-range>
-    Array of length 3: the string ``"unicode-range"``,
+<urange>
+    Array of length 3: the string ``"urange"``,
     followed by the *start* and *end* integers as two numbers.
 
 <include-match>
