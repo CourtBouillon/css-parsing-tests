@@ -67,6 +67,12 @@ associated with the expected result.
     The Unicode input is represented by a JSON string,
     the output as an array of declarations_ and at-rules_.
 
+``blocks_contents.json``
+    Tests `Parse a block’s contents
+    <http://dev.w3.org/csswg/css-syntax-3/#parse-block-contents>`_.
+    The Unicode input is represented by a JSON string,
+    the output as an array of declarations_, at-rules_ and `qualified rules`_.
+
 ``one_declaration.json``
     Tests `Parse a declaration
     <http://dev.w3.org/csswg/css-syntax-3/#parse-a-declaration>`_.
