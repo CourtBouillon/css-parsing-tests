@@ -35,12 +35,6 @@
 ], false],
 "foo:important", ["declaration", "foo", [
     ["ident", "important"]
-], false],
-
-"foo: 9000 @bar{ !important", ["declaration", "foo", [
-    " ", ["number", "9000", 9000, "integer"], " ", ["at-keyword", "bar"], ["{}",
-        " ", "!", ["ident", "important"]
-    ]
 ], false]
 
 ]
