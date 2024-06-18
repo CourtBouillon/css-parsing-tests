@@ -15,10 +15,10 @@ Projects using this
 
 CSS parsers using these tests:
 
-* `tinycss2 <https://github.com/SimonSapin/tinycss2>`_ (Python)
-* `rust-cssparser <https://github.com/mozilla-servo/rust-cssparser>`_
-  (Rust, used in `Servo <https://github.com/mozilla/servo/>`_)
-* `Crass <https://github.com/rgrove/crass/>`_ (Ruby)
+* `tinycss2 <https://github.com/Kozea/tinycss2>`_ (Python)
+* `rust-cssparser <https://github.com/servo/rust-cssparser>`_
+  (Rust, used in `Servo <https://github.com/servo/servo>`_)
+* `Crass <https://github.com/rgrove/crass>`_ (Ruby)
 
 
 Importing
@@ -117,7 +117,7 @@ associated with the expected result.
 
 ``color3.json``
     Tests the ``<color>`` syntax `defined in CSS Color Level 3
-    <http://www.w3.org/TR/css3-color/#colorunits>`_.
+    <https://www.w3.org/TR/css-color-3/#colorunits>`_.
     The Unicode input is represented by a JSON string,
     the output as one of:
 
@@ -140,8 +140,8 @@ associated with the expected result.
 ``An+B.json``
     Tests the `An+B <https://drafts.csswg.org/css-syntax-3/#the-anb-type>`_
     syntax defined in CSS Syntax Level 3.
-    This `differs <https://drafts.csswg.org/css-syntax/#changes>`_ from the
-    `nth grammar rule <http://www.w3.org/TR/css3-selectors/#nth-child-pseudo>`_
+    This `differs <https://drafts.csswg.org/css-syntax-3/#changes>`_ from the
+    `nth grammar rule <https://www.w3.org/TR/selectors-3/#nth-child-pseudo>`_
     in Selectors Level 3 only in that
     ``-`` characters and digits can be escaped in some cases.
     The Unicode input is represented by a JSON string,
@@ -182,7 +182,6 @@ Qualified rule
     An array of length 3: the string ``"qualified rule"``,
     the prelude as a nested array of `component values`_,
     and the block as a nested array of component value.
-
 
 Declaration
     An array of length 4: the string ``"declaration"``, the name as a string,
