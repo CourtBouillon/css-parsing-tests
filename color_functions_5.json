@@ -7,5 +7,12 @@
     "device-cmyk(0 81% 81% 30% / -200%)", "color(device-cmyk 0 0.81 0.81 0.3 / 0)",
     "device-cmyk(0 81% 81%)", null,
     "device-cmyk(0 81% 81% 130%)", "color(device-cmyk 0 0.81 0.81 1)",
-    "device-cmyk(0 81% 81% -30%)", "color(device-cmyk 0 0.81 0.81 0)"
+    "device-cmyk(0 81% 81% -30%)", "color(device-cmyk 0 0.81 0.81 0)",
+    "color(unvalid 0 0 0 0)", null,
+    "color(--valid 0 0 0 0)", "color(--valid 0 0 0 0)",
+    "color(--valid 10% 10% 10% 0)", "color(--valid 0.1 0.1 0.1 0)",
+    "color(--valid 0 0 0 0 / 50%)", "color(--valid 0 0 0 0 / 0.5)",
+    "color(--valid 0 0 0 0 / 0.5)", "color(--valid 0 0 0 0 / 0.5)",
+    "color(--valid 0 0 0 0 / 150%)", "color(--valid 0 0 0 0)",
+    "color(--valid 0 0 0 0 / -150%)", "color(--valid 0 0 0 0 / 0)"
 ]
