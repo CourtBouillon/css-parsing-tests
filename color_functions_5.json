@@ -1,6 +1,6 @@
 [
     "device-cmyk(0 81% 81% 30%)", "color(device-cmyk 0 0.81 0.81 0.3)",
-    "device-cmyk(0, 81%, 81%, 30%)", "color(device-cmyk 0 0.81 0.81 0.3)",
+    "device-cmyk(0, 81%, 81%, 30%)", null,
     "device-cmyk(0, 0.81, 0.81, 0.3)", "color(device-cmyk 0 0.81 0.81 0.3)",
     "device-cmyk(0 81% 81% 30% / 50%)", "color(device-cmyk 0 0.81 0.81 0.3 / 0.5)",
     "device-cmyk(0 81% 81% 30% / 200%)", "color(device-cmyk 0 0.81 0.81 0.3)",
