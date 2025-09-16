@@ -14,5 +14,6 @@
     "color(--valid 0 0 0 0 / 50%)", "color(--valid 0 0 0 0 / 0.5)",
     "color(--valid 0 0 0 0 / 0.5)", "color(--valid 0 0 0 0 / 0.5)",
     "color(--valid 0 0 0 0 / 150%)", "color(--valid 0 0 0 0)",
-    "color(--valid 0 0 0 0 / -150%)", "color(--valid 0 0 0 0 / 0)"
+    "color(--valid 0 0 0 0 / -150%)", "color(--valid 0 0 0 0 / 0)",
+    "light-dark(white, black)", ["color(srgb 255 255 255)", "color(srgb 0 0 0)"]
 ]
