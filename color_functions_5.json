@@ -15,5 +15,8 @@
     "color(--valid 0 0 0 0 / 0.5)", "color(--valid 0 0 0 0 / 0.5)",
     "color(--valid 0 0 0 0 / 150%)", "color(--valid 0 0 0 0)",
     "color(--valid 0 0 0 0 / -150%)", "color(--valid 0 0 0 0 / 0)",
-    "light-dark(white, black)", ["color(srgb 255 255 255)", "color(srgb 0 0 0)"]
+    "light-dark(white, black)", ["color(srgb 1 1 1)", "color(srgb 0 0 0)"],
+    "light-dark(device-cmyk(0 81% 81% 30%), color(--valid 0 0 0 0))", ["color(device-cmyk 0 0.81 0.81 0.3)", "color(--valid 0 0 0 0)"],
+    "light-dark(device-cmyk(0 81% 81%), color(unvalid 0 0 0 0))", [null, null],
+    "light-dark(color(display-p3 0% 0% 0%), color(srgb 0% 0% 0% / 50%))", ["color(display-p3 0 0 0)", "color(srgb 0 0 0 / 0.5)"]
 ]
