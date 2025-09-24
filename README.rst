@@ -33,11 +33,11 @@ is to import them with git-subtree_.
 To import the first time to a ``./css-parsing-tests`` sub-directory,
 run this from the top-level of a git repository::
 
-    git subtree add -P css-parsing-tests https://github.com/SimonSapin/css-parsing-tests.git master
+    git subtree add -P css-parsing-tests https://github.com/SimonSapin/css-parsing-tests.git main
 
 Later, to merge changes made in the upstream repository, run::
 
-    git subtree pull -P css-parsing-tests https://github.com/SimonSapin/css-parsing-tests.git master
+    git subtree pull -P css-parsing-tests https://github.com/SimonSapin/css-parsing-tests.git main
 
 
 Test files
